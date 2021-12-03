@@ -1,0 +1,581 @@
+:root {
+  --theme-color-light-dark-switch   : #fff;
+  --theme-color                     : #1890ff;
+  --theme-color-gray                : #ededed;
+  /* --theme-color-light-dark-switch: #002140; */
+}
+
+body{
+  overflow: hidden;
+}
+
+.csi-main-layout-video-call-0440 .csi-video-call-header-0439 {
+  height          : 44px;
+  background-color: var(--theme-color-light-dark-switch);
+  display         : flex;
+  align-items     : center;
+  padding         : 0 15px;
+  border-bottom   : 2px solid #e9e8e8;
+  justify-content : space-between;
+}
+
+.csi-flex-box-align-center-0726FA {
+  display    : flex;
+  align-items: center;
+}
+
+.csi-h-100 {
+  height: 100%;
+}
+
+.csi-main-layout-video-call-0440 .ant-layout-sider {
+  background-color: var(--theme-color-light-dark-switch);
+}
+
+.csi-main-layout-video-call-0440 .ant-layout-sider-trigger {
+  background-color: var(--theme-color-light-dark-switch);
+  color           : var(--theme-color);
+}
+
+.csi-main-layout-video-call-0440 .ant-menu {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  height         : 100%;
+}
+
+.csi-video-interaction-d-grid-0517Dg {
+  display              : grid;
+  grid-template-columns: 3fr 1fr;
+  gap                  : 7px;
+  padding              : 7px;
+  grid-template-areas  :
+    "video-interaction video-interaction-1"
+    "video-interaction video-interaction-2"
+    "video-interaction video-interaction-3";
+}
+
+.video-interaction {
+  grid-area: video-interaction;
+}
+
+.video-interaction-1 {
+  grid-area: video-interaction-1;
+}
+
+.video-interaction-2 {
+  grid-area: video-interaction-2;
+}
+
+.video-interaction-3 {
+  grid-area: video-interaction-3;
+}
+
+.csi-main-layout-video-call-0440 .csi-border-radius-5 {
+  border-radius: 5px;
+}
+
+
+.csi-main-layout-video-call-0440 .csi-bg-user-img-0550 {
+  background-image   : url("./img/UserProfile.png");
+  background-position: center !important;
+  background-size    : cover !important;
+  background-repeat  : no-repeat !important;
+}
+
+.csi-chat-section-main-layout-1253F {
+  height        : 100%;
+  display       : flex;
+  flex-direction: column;
+  gap           : 19px;
+}
+
+
+.csi-flex-start {
+  display        : flex;
+  justify-content: flex-start;
+  gap            : 5px;
+  padding-right  : 2.3rem;
+
+}
+
+.csi-flex-end {
+  display        : flex;
+  justify-content: flex-end;
+  gap            : 5px;
+  padding-left   : 2.3rem;
+}
+
+.csi-flex-start .csi-agent-chat-text-0103 {
+  background   : var(--theme-color-gray);
+  color        : #000;
+  padding      : 5px 15px;
+  border-radius: 5px;
+  position     : relative;
+  font-size    : 13px;
+  white-space  : break-spaces;
+  word-break   : keep-all;
+}
+
+.csi-flex-end .csi-customer-chat-text-0103 {
+  background   : var(--theme-color);
+  color        : #fff;
+  padding      : 5px 15px;
+  border-radius: 5px;
+  position     : relative;
+  font-size    : 13px;
+  white-space  : break-spaces;
+  word-break   : keep-all;
+}
+
+.csi-flex-end .ant-avatar,
+.csi-flex-start .ant-avatar {
+  width    : -webkit-fill-available;
+  max-width: 32px;
+}
+
+.csi-current-time-chat-0226 {
+  position   : absolute;
+  right      : 1px;
+  bottom     : -14px;
+  font-size  : 9px;
+  color      : gray !important;
+  font-weight: 400;
+}
+
+.csi-main-layout-video-call-0440 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ffffff;
+  border-right    : 3px solid;
+}
+
+.csi-d-flex-gap-footer-chat-box-0328U {
+  display: flex;
+  gap    : 10px;
+}
+
+.csi-chat-drawer-box-interaction-0523 .csi-send-box-chat-interaction-0331CI {
+  border-radius: 30px;
+}
+
+.csi-chat-drawer-box-interaction-0523 .ant-drawer-body {
+  overflow: overlay;
+}
+
+.csi-chat-drawer-box-interaction-0523 .ant-drawer-body::-webkit-scrollbar {
+  width: 14px;
+}
+
+.csi-chat-drawer-box-interaction-0523 .ant-drawer-body::-webkit-scrollbar-thumb {
+  border          : 4px solid rgba(0, 0, 0, 0);
+  background-clip : padding-box;
+  border-radius   : 9999px;
+  background-color: #c3c3c3;
+}
+
+.csi-logo-text-0716L {
+  color         : var(--theme-color);
+  height        : 100%;
+  line-height   : 100%;
+  display       : flex;
+  align-items   : center;
+  font-weight   : 600;
+  letter-spacing: 1px;
+}
+
+.csi-header-component-w-100-top-0737Y {
+  display        : flex;
+  align-items    : center;
+  justify-content: space-between;
+  width          : 100%;
+  height         : 100%;
+}
+
+.csi-dropdown-logout-menu-09334D {
+  padding      : 0px 0px !important;
+  width        : 230px;
+  border-radius: 6px !important;
+}
+
+.csi-logout-details-0835F {
+  height          : 60px;
+  background-color: #b3b3b3;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  gap             : 5px;
+  border-radius   : 6px 6px 0px 0px;
+}
+
+.csi-flex-align-center-0852GD {
+  display    : flex;
+  align-items: center;
+  gap        : 5px;
+}
+
+.csi-flex-align-center-0852GD span {
+  font-weight   : 400;
+  letter-spacing: 0.2px;
+  color         : #666666;
+}
+
+.csi-user-title-0876UT {
+  color         : #fff;
+  font-weight   : 600;
+  letter-spacing: 0.5px;
+}
+
+.csi-dropdown-logout-menu-09334D .ant-dropdown-menu-title-content>a::after {
+  border-bottom: 1px solid #ededed;
+}
+
+.csi-dropdown-logout-menu-09334D .ant-dropdown-menu-item {
+  margin: 0px 10px;
+}
+
+.csi-logout-avatar-button-0845PB {
+  cursor: pointer;
+}
+
+.csi-flex-box-justify-content-0439 {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  padding        : 1rem;
+}
+
+.csi-flex-justify-space-between-20202 {
+  display    : flex;
+  gap        : 10px;
+  align-items: center;
+}
+
+.csi-bold-color-text-3030 {
+  font-size     : 16px;
+  font-weight   : 700;
+  letter-spacing: 0.5px;
+}
+
+.csi-main-layout-video-call-0440 .dashboard-button-search-393939 {
+  background-color: #e5e9fa;
+  border-radius   : 4px;
+  border          : none;
+}
+
+.dashboard-button-search-393939 .anticon-search {
+  color: #809bf5 !important;
+}
+
+.csi-main-layout-video-call-0440 .csi-card-dashboard-bg-3030 {
+  background-color: #f7e5e9;
+  border-radius   : 10px;
+}
+
+.csi-main-layout-fn-3030 {
+  height  : 98vh;
+  padding : 1rem 2rem;
+  overflow: auto;
+  margin  : 6px;
+
+}
+
+.csi-custom-text-red-3030 {
+  font-size  : 15px;
+  font-weight: 700;
+  color      : #fe616f !important;
+}
+
+.csi-flex-diraction-0403-33FF {
+  display       : flex;
+  flex-direction: column;
+  gap           : 12px;
+}
+
+.csi-card-dashboard-bg-3030 .ant-card-body {
+  display        : flex;
+  justify-content: space-between;
+}
+
+
+.csi-flex-justify-content-center-3030D {
+  width          : 100%;
+  display        : flex;
+  justify-content: center;
+}
+
+.csi-flex-justify-content-center-3030D img {
+  width   : 230px;
+  position: absolute;
+  top     : -40px;
+}
+
+.csi-text-color-welecome-303030ddd {
+  color      : grey;
+  font-size  : 14px;
+  font-weight: 500;
+}
+
+.result-card-info-44040 .ant-card-head {
+  border-bottom: none;
+}
+
+.csi-transparent-bg-4040R {
+  background-color: transparent !important;
+  margin-top      : 10px !important;
+}
+
+.csi-card-1-0724 {
+  background-color: #4d4cac !important;
+  color           : #fff !important;
+  border-radius   : 10px !important;
+}
+
+.csi-card-1-0724 .ant-card-body {
+  display        : flex;
+  align-items    : center;
+  gap            : 1vw;
+  justify-content: left;
+}
+
+.csi-card-2-0724 {
+  background-color: #9698d6 !important;
+  color           : #fff !important;
+  border-radius   : 10px !important;
+}
+
+.csi-card-2-0724 .ant-card-body {
+  display        : flex;
+  align-items    : center;
+  gap            : 1vw;
+  justify-content: left;
+}
+
+.csi-card-3-0724 {
+  background-color: #ff808b !important;
+  color           : #fff !important;
+  border-radius   : 10px !important;
+}
+
+.csi-card-3-0724 .ant-card-body {
+  display        : flex;
+  align-items    : center;
+  gap            : 1vw;
+  justify-content: left;
+}
+
+
+@media screen and (max-width: 487px) {
+  .csi-card-dashboard-bg-3030 .ant-card-body {
+    flex-direction: column;
+  }
+
+  .csi-flex-justify-content-center-3030D img {
+    position: inherit;
+  }
+
+  .csi-flex-box-justify-content-0439 {
+    flex-direction: column;
+    gap           : 10px;
+  }
+
+  .csi-flex-box-responsive-diraction-4040DS {
+    flex-direction: column !important;
+  }
+
+  .csi-flex-box-responsive-diraction-4040DS .csi-responsive-movie-col-12-330 {
+    max-width: 100%;
+  }
+
+  .csi-card-1-0724 .ant-card-body,
+  .csi-card-2-0724 .ant-card-body,
+  .csi-card-3-0724 .ant-card-body {
+    gap: 3vw;
+  }
+
+  .step-1-for-card-3030,
+  .step-2-for-card-3030,
+  .step-3-for-card-3030{
+    gap: 1px;
+  }
+
+  .csi-right-side-bar-logout-component-4949{
+    display: none;
+  }
+  .csi-main-layout-fn-3030 {
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+
+.step-1-for-card-3030 {
+  background-color: #ffffff33;
+  padding         : 10px 15px;
+  border-radius   : 5px;
+}
+
+.step-2-for-card-3030 {
+  display       : flex;
+  flex-direction: column;
+  gap           : 10px;
+}
+
+.step-2-for-card-3030 span:nth-child(1) {
+  color      : #e5e5e5;
+  font-weight: 500;
+}
+
+.step-2-for-card-3030 span:nth-child(2) {
+  font-weight   : 600;
+  font-size     : 16px;
+  letter-spacing: 0.5px;
+}
+
+.csi-icon-position-fixed-34949 {
+  font-size: 23px;
+  position : absolute;
+  right    : 1rem;
+  bottom   : 1rem;
+  cursor   : pointer;
+}
+
+
+.csi-flex-justify-content-sb {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+}
+
+
+.csi-user-profile-upload-3030 {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  padding        : 24px 0px;
+  flex-direction : column;
+  gap            : 15px;
+}
+
+.csi-user-profile-upload-3030 .ant-scroll-number-custom-component {
+  top  : 66px !important;
+  right: 10px !important;
+}
+
+.csi-loger-user-details {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  gap            : 3px;
+  flex-direction : column;
+}
+
+.ranging-control-interaction-details-6959 {
+  display        : flex;
+  justify-content: space-between;
+  gap            : 10px;
+  align-items    : center;
+  width          : 100%;
+}
+
+.csi-gap-fd-5464f {
+  display       : flex;
+  gap           : 5px;
+  flex-direction: column;
+  flex          : 2;
+}
+
+.ranging-control-interaction-details-6959 .ranging-title-304F345 {
+  padding         : 9px 11px;
+  background-color: #f5f5f7;
+  border-radius   : 5px;
+}
+
+.csi-flex-gap-alignment-dis-4040 {
+  height        : 100%;
+  width         : 100%;
+  display       : flex;
+  flex-direction: column;
+  gap           : 15px;
+  padding       : 10px 5px;
+}
+
+.csi-right-side-bar-logout-component-4949 .csi-reminder-card-interaction-1243 {
+  border    : 0px !important;
+  margin-top: 16px;
+  width     : 100%;
+}
+
+.csi-card-1-0724 .ant-card-body,
+.csi-card-2-0724 .ant-card-body,
+.csi-card-3-0724 .ant-card-body {
+  padding: 25px 0px;
+}
+
+.csi-reminders-time-details-schedule-566G {
+  display    : flex;
+  align-items: center;
+  gap        : 13px;
+}
+
+.csi-reminders-time-details-schedule-566G .ant-btn {
+  flex: 0.4;
+}
+
+.csi-flex-d-404FDS {
+  display       : flex;
+  flex-direction: column;
+  gap           : 5px;
+}
+
+.csi-card-remainerder-1-30304 {
+  padding         : 8px 12px;
+  background-color: #fef2f3;
+  border-radius   : 5px;
+}
+
+.csi-card-remainerder-2-30304 {
+  padding         : 8px 12px;
+  background-color: #eef2fd;
+  border-radius   : 5px;
+}
+
+.csi-card-remainerder-3-30304 {
+  padding         : 8px 12px;
+  background-color: #fef2f8;
+  border-radius   : 5px;
+}
+
+.csi-reminder-card-interaction-1243 .ant-card-body {
+  height        : 100%;
+  display       : flex;
+  flex-direction: column;
+  gap           : 10px;
+  width         : 100%;
+}
+
+.csi-right-side-bar-logout-component-4949 .ant-layout-sider-children {
+  margin: 4px;
+  height: 98vh;
+}
+
+.custom-scrollbar-dashboard-0135 {
+  height  : 99vh;
+  overflow: auto;
+  width   : 100%;
+}
+
+.csi-main-layout-fn-3030::-webkit-scrollbar,
+.custom-scrollbar-dashboard-0135::-webkit-scrollbar {
+  background-color: transparent;
+  width           : 5px;
+}
+
+.csi-main-layout-fn-3030::-webkit-scrollbar-thumb,
+.custom-scrollbar-dashboard-0135::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius   : 50px;
+  border          : none;
+}
+
+.csi-main-layout-fn-3030::-webkit-scrollbar-track,
+.custom-scrollbar-dashboard-0135::-webkit-scrollbar-track {
+  background-color: #e7e6e800;
+}
