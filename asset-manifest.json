@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ReactDashboard/static/css/main.dd66436e.chunk.css",
+    "main.js": "/ReactDashboard/static/js/main.e00e7ac2.chunk.js",
+    "main.js.map": "/ReactDashboard/static/js/main.e00e7ac2.chunk.js.map",
+    "runtime-main.js": "/ReactDashboard/static/js/runtime-main.14c22552.js",
+    "runtime-main.js.map": "/ReactDashboard/static/js/runtime-main.14c22552.js.map",
+    "static/css/2.a95be28f.chunk.css": "/ReactDashboard/static/css/2.a95be28f.chunk.css",
+    "static/js/2.055ca548.chunk.js": "/ReactDashboard/static/js/2.055ca548.chunk.js",
+    "static/js/2.055ca548.chunk.js.map": "/ReactDashboard/static/js/2.055ca548.chunk.js.map",
+    "static/js/3.ffc0773e.chunk.js": "/ReactDashboard/static/js/3.ffc0773e.chunk.js",
+    "static/js/3.ffc0773e.chunk.js.map": "/ReactDashboard/static/js/3.ffc0773e.chunk.js.map",
+    "index.html": "/ReactDashboard/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/ReactDashboard/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.dd66436e.chunk.css.map": "/ReactDashboard/static/css/main.dd66436e.chunk.css.map",
+    "static/js/2.055ca548.chunk.js.LICENSE.txt": "/ReactDashboard/static/js/2.055ca548.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ReactDashboard/static/media/UserProfile.3dd29668.png",
+    "static/media/logout.82d0ecc6.svg": "/ReactDashboard/static/media/logout.82d0ecc6.svg",
+    "static/media/myImages-removebg-preview.f8435a0e.png": "/ReactDashboard/static/media/myImages-removebg-preview.f8435a0e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14c22552.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.055ca548.chunk.js",
+    "static/css/main.dd66436e.chunk.css",
+    "static/js/main.e00e7ac2.chunk.js"
+  ]
+}
